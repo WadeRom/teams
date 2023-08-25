@@ -1,0 +1,22 @@
+:root{
+  --primaryBG: #6278F7
+}
+button { 
+  border: 0;
+}
+
+.primaryBtn{
+  width: 7rem;
+  color: #fff;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  background: var(--primaryBG); 
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.primaryBtn:active{
+  color: #95FFD4;
+}

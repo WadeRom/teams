@@ -1,0 +1,22 @@
+:root{
+  --bgColor: #F6F6F6;
+}
+.formContainer{
+  gap: 2rem;
+  width: 75%;
+  padding: 3rem;
+  display: flex;
+  margin: 3rem auto;
+  flex-direction: column; 
+  background-color: var(--bgColor);
+  border-radius: 1rem;
+}
+
+.formTitle{
+  margin-bottom: 2rem;;
+  font-family: var(--fontTitle);
+}
+
+.formLabelText{
+  font-family: var(--fontContent);
+}

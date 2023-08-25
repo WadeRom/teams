@@ -1,0 +1,23 @@
+.footer__container{
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  align-items: center;
+  background-size: cover;
+  justify-content: space-evenly;
+  background-image: url("/images/footer.svg");
+}
+
+.footer__social{
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer__dev{
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: var(--fontContent);
+  color: var(--color-dark-green);
+}

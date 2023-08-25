@@ -1,0 +1,23 @@
+:root{
+  --placeHolder: #A4A4A4;
+  --background: #FFFFFF;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+.inputText {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  background-color: var(--background);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
+  font-family: var(--fontContent);
+}
+
+.inputText:placeholder-shown{
+  color: var(--placeHolder);
+}

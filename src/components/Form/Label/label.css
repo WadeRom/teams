@@ -1,0 +1,13 @@
+:root{
+  --colorText: #212121;
+}
+
+.labelText{
+  margin: 1rem 0;
+  font-family: var(--fontContent);
+  color: var(--colorText);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+  
+}

@@ -1,0 +1,78 @@
+:root{
+  --fontContent: 'Montserrat', sans-serif;
+  --fontTitle: 'Prata', serif;
+  --color-violet: #647af7;
+  --color-green: #56c278;
+  --color-light-blue: #82CFFA;
+  --color-dark-green:#a6d157;
+  --color-red: #E06B69;
+  --color-pink: #DB6EBF;
+  --color-yellow: #FFBA05;
+  --color-orange: #FF8A29;
+  --bg-green:#D9F7E9;
+  --bg-light-blue:#E8F8FF;
+  --bg-light-red: #FDE7E8;
+  --bg-light-pink: #FAE9F5;
+  --bg-light-green: #F0F8E2;
+  --bg-light-yellow: #FFF5D9;
+  --bg-light-orange:#FFEEDF;
+}
+
+.color-dark{color: #212121;}
+.color-red{color: var(--color-red);}
+.color-pink{color: var(--color-pink);}
+.color-green{color: var(--color-green);}
+.color-yellow{color: var(--color-yellow);}
+.color-orange{color: var(--color-orange);}
+.color-violet{color: var(--color-violet);}
+.color-light-blue{color: var(--color-light-blue);}
+.color-dark-green{color: var(--color-dark-green);}
+
+.bg-green{background-color: var(--bg-green)}
+.bg-light-red{background-color: var(--bg-light-red)}
+.bg-light-blue{background-color: var(--bg-light-blue)}
+.bg-light-pink{background-color: var(--bg-light-pink)}
+.bg-light-green{background-color: var(--bg-light-green)}
+.bg-light-yellow{background-color: var(--bg-light-yellow)}
+.bg-light-orange{background-color: var(--bg-light-orange)}
+
+.decoration-pink{text-decoration-color: var(--color-pink);}
+.decoration-red{text-decoration-color: var(--color-red);}
+.decoration-green{text-decoration-color: var(--color-green);}
+.decoration-yellow{text-decoration-color: var(--color-yellow);}
+.decoration-orange{text-decoration-color: var(--color-orange);}
+.decoration-violet{text-decoration-color: var(--color-violet);}
+.decoration-light-blue{text-decoration-color: var(--color-light-blue);}
+.decoration-dark-green{text-decoration-color: var(--color-dark-green);}
+
+
+.grandient-pink{
+  background: linear-gradient(to bottom,var(--color-pink) 35%,white 0%);
+}
+.grandient-green{
+  background: linear-gradient(to bottom,var(--color-green) 35%,white 0%);
+}
+.grandient-yellow{
+  background: linear-gradient(to bottom,var(--color-yellow) 35%,white 0%);
+}
+.grandient-orange{
+  background: linear-gradient(to bottom,var(--color-orange) 35%,white 0%);
+}
+.grandient-violet{
+  background: linear-gradient(to bottom,var(--color-violet) 35%,white 0%);
+}
+.grandient-red{
+  background: linear-gradient(to bottom,var(--color-red) 35%,white 0%);
+}
+.grandient-light-blue{
+  background: linear-gradient(to bottom,var(--color-light-blue) 35%,white 0%);
+}
+.grandient-dark-green{
+  background: linear-gradient(to bottom,var(--color-dark-green) 35%,white 0%);
+}
+
+*, html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
